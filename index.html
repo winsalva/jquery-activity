@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Activity 5</title> 
+  	  <meta charset="utf-8"> 
+  	  <meta name="viewport" 
+        content="width=device-width, initial-scale=1"> 
+ 
+   	 <script src=
+"https://code.jquery.com/jquery-1.10.2.js"> 
+    	</script> 
+    	    <!--<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> -->
+    	<script>
+    	
+				$("#box1").hover(
+					function(){  
+						$("#box1").hide();
+						$("#text1").show();
+					},
+					function() {
+						$("#text1").hide();
+						$("#box1").show();
+					})
+					
+					$("#box2").hover(
+					function(){  
+						$("#box2").hide();
+						$("#text2").show();
+					},
+					function() {
+						$("#text2").hide();
+						$("#box2").show();
+					})
+					
+					$("#box3").hover(
+					function(){  
+						$("#box3").hide();
+						$("#text3").show();
+					},
+					function() {
+						$("#text3").hide();
+						$("#box3").show();
+					})
+					
+					$("#box4").hover(
+					function(){  
+						$("#box4").hide();
+						$("#text4").show();
+					},
+					function() {
+						$("#text4").hide();
+						$("#box4").show();
+					})
+					
+					$("#box5").hover(
+					function(){  
+						$("#box5").hide();
+						$("#text5").show();
+					},
+					function() {
+						$("#text5").hide();
+						$("#box5").show();
+					})
+					
+					$("#box6").hover(
+					function(){  
+						$("#box6").hide();
+						$("#text6").show();
+					},
+					function() {
+						$("#text6").hide();
+						$("#box6").show();
+					})
+					
+					$("#box7").hover(
+					function(){  
+						$("#box7").hide();
+						$("#text7").show();
+					},
+					function() {
+						$("#text7").hide();
+						$("#box7").show();
+					})
+					
+					$("#box8").hover(
+					function(){  
+						$("#box8").hide();
+						$("#text8").show();
+					},
+					function() {
+						$("#text8").hide();
+						$("#box8").show();
+					})
+				
+				</script>  
+    	<style>
+    		.blue {
+    			background-color: blue;
+    		}
+    		.yellow {
+    			background-color: yellow;
+    		}
+        	.red {
+    			background-color: red;
+    		}
+        	.orange {
+    			background-color: orange;
+    		}
+   		.silver {
+    			background-color: silver;
+    		}
+    		.sub-container {
+    			display: flex;
+    		}
+    		.containers, .texts {
+    			width: 100px;
+    			height: 100px;
+    		}
+    		.texts {
+    			display: none;
+    		}
+    	</style>
+    </head>
+    <body>
+    	<div class="main-container">
+    		<div class="sub-container">
+    			<div class="containers blue" id="box1"></div>
+    			<div class="texts silver" id="text1">Div 1</div>
+    			<div class="containers yellow" id="box2"></div>
+    			<div class="texts silver" id="text2">Div 2</div>
+  	   	   <div class="containers red" id="box3"></div>
+  			<div class="texts silver" id="text3">Div 3</div>
+   	   	  <div class="containers orange" id="box4"></div>
+   		<div class="texts silver" id="text4">Div 4</div>
+      	  </div>
+      	  <div class="sub-container">
+       		 <div class="containers orange" id="box5"></div>
+       		<div class="texts silver" id="text5">Div 5</div>
+     	   	<div class="containers red" id="box6"></div>
+     			<div class="texts silver" id="text6">Div 6</div>
+ 	       	<div class="containers yellow" id="box7"></div>
+ 				<div class="texts silver" id="text7">Div 7</div>
+            	<div class="containers blue" id="box8"></div>
+            	<div class="texts silver" id="text8">Div 8</div>
+			</div>	
+    	</div>	
+    </body>
+</html>
